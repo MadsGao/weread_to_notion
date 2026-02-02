@@ -38,3 +38,5 @@ jobs:
           git add .
           git commit -m 'add new cover' || echo "nothing to commit"
           git push || echo "nothing to push"
+pip show notion-client
+python -c "import notion_client; print(notion_client.__version__)"
